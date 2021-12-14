@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Roboto", sans-serif;
+  height: 200vh;
+}
+
+#headerside {
+  height: 80vh;
+  background: #1d8348;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #11ca5e;
+}
+
+.top-header .logo {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 60px;
+}
+
+.top-header .link {
+  display: inline-block;
+  padding: 0 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.mid-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.mid-header .midtext {
+  flex-basis: 400px;
+  height: 300px;
+  color: #11ca5e;
+}
+
+.mid-header .midtext h2 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.mid-header .midtext p {
+  font-size: 24px;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: bold;
+  padding: 0;
+}
+
+.mid-header .midimage {
+  width: 500px;
+  height: auto;
+  border: 10px #11ca5e solid;
+  border-style: double;
+  border-radius: 75px;
+}
+
+.mid-header .button {
+  padding: 15px 35px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: none;
+  border: none;
+  background-color: #11ca5e;
+  color: #033116;
+  font-weight: bold;
+}
+
+.section-one {
+  background: #11ca5e;
+  height: 60vh;
+}
+
+.section-one h3 {
+  color: #1d8348;
+  text-align: center;
+  font-size: 36px;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+.section-one h3 span {
+  font-family: "Cedarville Cursive", cursive;
+  padding: 0 8px;
+}
+
+.section-one .section-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-one .sectionimg img {
+  width: 300px;
+  height: 250px;
+  margin: 0 8px;
+  border: 10px #1d8348 solid;
+  border-style: double;
+  border-radius: 50%;
+}
+
+.section-one .section-img-text p {
+  display: inline-block;
+  width: 320px;
+  margin: 10px 0;
+  color: #053f1d;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1d8348;
+  height: 60vh;
+}
+
+.section-two h3 {
+  font-size: 35px;
+  color: #11ca5e;
+}
+
+.section-two cite {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #11ca5e;
+  padding: 10px 0;
+}
+
+.section-three {
+  height: 60vh;
+  background: #11ca5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three .section-three-border {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1d8348;
+  width: 900px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.section-three .section-three-border .button {
+  border: none;
+  background-color: #11ca5e;
+  color: #033116;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.section-three .section-three-border .content h3 {
+  color: #11ca5e;
+  font-size: 30px;
+}
+
+.section-three .section-three-border .content p {
+  color: #11ca5e;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 10vh;
+  background: #1d8348;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 25px;
+  color: #11ca5e;
+}
+
+.footer p {
+  flex-shrink: 0;
+}
